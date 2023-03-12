@@ -1,0 +1,12 @@
+{
+	// 每次保存的时候自动格式化
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	// 添加vue支持
+	"eslint.validate": ["javascript", "javascriptreact", "typescript", "html", "vue"],
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.fixAll.stylelint": true
+	},
+	"stylelint.validate": ["css", "postcss", "scss", "sass", "vue", "html"]
+}
